@@ -4,3 +4,11 @@ CREATE TABLE candidates (
   last_name VARCHAR(30) NOT NULL,
   industry_connected BOOLEAN NOT NULL
 );
+
+
+CREATE TABLE DOGS (
+  id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  goodboy BOOLEAN NOT NULL
+);
